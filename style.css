@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    padding-top: 200px;
+}
+
+/*Testando @media//Responsividade*/
+@media (max-width: 900px)
+{
+    #servicos
+   {
+    
+   }
+}
+
+
+header{
+    border-top: 1px solid rgba(0, 0, 0, 0.541);
+    background-color: white;
+    padding-top: 5px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+#principal{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.input-search{
+    height: 40px;
+    width: 320px;
+    border-radius: 7px;
+    padding-right: 12px;
+    background: transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='17' height='17' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat right;
+    cursor: pointer;
+    opacity: 0.7;
+}
+.input-search::placeholder{
+    font-size: 16px;
+}
+#principal > a{
+    display: flex;
+    text-decoration: none;
+    color: #414141;
+    padding: 5px 20px 5px 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 1px solid rgb(63, 61, 61);
+    border-radius: 12px;
+}
+#principal > a:hover{
+    color: #610F7F;
+}
+.Menu{
+    cursor: pointer;
+    font-size: 16px;
+    margin: 20px;
+    text-decoration: none;
+    color: #414141;
+    padding: 5px 0;
+}
+.Menu:hover{
+    border-bottom: 4px solid #610F7F;
+    transition: 50ms;
+}
+nav{
+    border-top: 1px solid rgba(0, 0, 0, 0.541);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.541);
+    display: flex;
+    padding: 17px;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+    margin: auto;
+    list-style: none;
+}
+h2{
+    font-size: 25px;
+    text-indent: 20px;
+}
+#servicos{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+}
+.div-servicos{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 200px;
+    border: 2px solid rgba(0, 0, 0, 0.541);
+    border-radius: 12px;
+    box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.431);
+    background-color: rgba(221, 220, 220, 0.239);
+    margin: auto;
+    margin-bottom: 80px;
+}
+.imagem-div{
+    flex-direction: row;
+    display: flex;
+    margin: 0 auto;
+    padding-top: 15px;
+}
+.titulo-div{
+    font-size: 1.3em;
+    text-align: center;
+    margin-top: 5px;
+    padding: 10px;
+}
+.descricao-div{
+    font-family: sans-serif;
+    font-size: 15px;
+    margin: 4px;
+    margin-top: 20px;
+    text-align: center;
+}
+.button{
+    cursor: pointer;
+    display: flex;
+    height: 40px;
+    width: 70%;
+    padding: 12px;
+    border-radius: 3px;
+    border-color: transparent;
+    color: white;
+    font-weight: 700;
+    font-size: 17px;
+    background-color: #610F7F;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+.button:hover{
+    background-color: #3b0a4d;
+}
+#produtos-verao{
+    width: 100vw;
+    margin-top: 30px;
+    margin-bottom: 80px;
+    display: flex;
+    flex-direction: row;
+}
+.div-produtos-verao{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 230px;
+    border: 2px solid rgba(0, 0, 0, 0.541);
+    border-radius: 12px;
+    box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.431);
+    background-color: rgba(221, 220, 220, 0.239);
+    margin: auto;
+}
+span{
+    color: #610F7F;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.preco-produto{
+    margin: 12px 0;
+    font-size: 17px;
+}
+#produtos-exclusivos{
+    width: 100vw;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+}
+.produtos-exclusivos{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 230px;
+    border: 2px solid rgba(0, 0, 0, 0.541);
+    border-radius: 12px;
+    box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.431);
+    background-color: rgba(221, 220, 220, 0.239);
+    margin: auto;
+}
+.Imagens-promocao{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+.Imagens-promocao > img{
+    display: flex;
+    margin: auto;
+}
+#DevTitan{
+    width: 400px;
+    align-items: center;
+}
+#DevTitan > h2{
+    color: white;
+    font-size: 1.3em;
+    text-align: center;
+    padding: 10px;
+}
+#DevTitan > img{
+    display: flex;
+    margin: auto;
+}
+#redes-sociais{
+    width: 200px;
+    background-color: #414141;
+    align-items: center;
+}
+#redes-sociais > h2{
+    color: white;
+    font-size: 1.3em;
+    text-align: center;
+    padding: 10px;
+}
+footer{
+    display: flex;
+    margin-top: 100vh;
+    width: 100%;
+    height: 300px;
+    background-color: #610F7F;
+}
