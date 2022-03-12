@@ -6,17 +6,6 @@
 body{
     padding-top: 200px;
 }
-
-/*Testando @media//Responsividade*/
-@media (max-width: 900px)
-{
-    #servicos
-   {
-    
-   }
-}
-
-
 header{
     border-top: 1px solid rgba(0, 0, 0, 0.541);
     background-color: white;
@@ -196,6 +185,14 @@ span{
     display: flex;
     margin: auto;
 }
+#cadastrar-pet{
+    margin-top: 80px;
+    display: flex;
+    width: 100vw;
+    height: 70px;
+    background-color: #610F7F;
+    color: white;
+}
 #DevTitan{
     width: 400px;
     align-items: center;
@@ -212,14 +209,20 @@ span{
 }
 #redes-sociais{
     width: 200px;
-    background-color: #414141;
+    display: flex;
+    justify-content: right;
     align-items: center;
+    flex-direction: column;
+    margin-left: 39vw;
 }
 #redes-sociais > h2{
     color: white;
     font-size: 1.3em;
     text-align: center;
     padding: 10px;
+}
+#redes-sociais > img{
+    cursor: pointer;
 }
 footer{
     display: flex;
