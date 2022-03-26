@@ -1,0 +1,40 @@
+*{
+    font-family: sans-serif;
+}
+body{
+    margin: auto;
+}
+section{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+form{
+    display: block;
+    width: 350px;
+    height: 320px;
+    border: 1px solid black;
+    border-radius: 4px;
+    flex-direction: column;
+    padding: 10px;
+    position: absolute;
+    top: 10%;
+    margin: auto;
+}
+input[type="text"]{
+    display: block;
+    margin: 10px auto;
+    width: 90%;
+}
+input[type="submit"]{
+    display: block;
+    margin: auto;
+    background-color: #610F7F;
+    color: white;
+    border: 0;
+    border-radius: 7px;
+    width: 70%;
+    height: 35px;
+    text-align: center;
+}
